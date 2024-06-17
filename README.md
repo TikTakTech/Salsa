@@ -1,1 +1,1 @@
-Legit files for security audit
+Legitimate files for security audit
