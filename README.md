@@ -48,6 +48,19 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 <br/><br/>
 
 ---
+### AD
+---
+**SYSVOL acces without serveur name :**
+```
+\\mon-domaine.fr\sysvol
+```
+**Searching Password in GPO with explorer :**
+
+![image](https://github.com/TikTakTech/Salsa/assets/114105972/45e450e0-3a09-4da1-89d0-24db9bc8adb7)
+
+<br/><br/>
+
+---
 ### RECONNAISSANCE - ENUMERATION
 ---
 
