@@ -20,7 +20,10 @@ file://c:/windows/system32/calc.exe
 ### RECONNAISSANCE - ENUMERATION
 *******
 
-Todo
+Recent user activity
+```
+C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
+```
 
 ### MEMCM - MDT - PXE
 *******
