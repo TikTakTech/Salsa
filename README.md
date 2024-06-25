@@ -16,6 +16,10 @@ Kiosk evasion : file access from browser or openfile dialogbox
 ```
 file://c:/windows/system32/calc.exe
 ```
+Recent user activity
+```
+C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
+```
 
 ### OSINT - PASSWORD
 
@@ -25,10 +29,7 @@ file://c:/windows/system32/calc.exe
 ### RECONNAISSANCE - ENUMERATION
 *******
 
-Recent user activity
-```
-C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
-```
+Todo
 
 ### MEMCM - MDT - PXE
 *******
