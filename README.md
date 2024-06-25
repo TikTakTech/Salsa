@@ -30,6 +30,8 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 **Url file attack**
 - https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
 - https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
+- https://github.com/mdsecactivebreach/Farmer
+- https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 
 **NTLM**
 - https://www.scip.ch/en/?labs.20210909
