@@ -31,6 +31,7 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 - https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
 
 <br/><br/>
+
 ---
 ### OSINT - PASSWORD
 ---
@@ -39,6 +40,7 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 - https://breachdirectory.org/
 
 <br/><br/>
+
 ---
 ### RECONNAISSANCE - ENUMERATION
 ---
@@ -46,6 +48,7 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 Todo
 
 <br/><br/>
+
 ---
 ### MEMCM - MDT - PXE
 *******
