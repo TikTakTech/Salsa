@@ -17,6 +17,11 @@ Kiosk evasion : file access from browser or openfile dialogbox
 file://c:/windows/system32/calc.exe
 ```
 
+### OSINT - PASSWORD
+
+- https://haveibeenpwned.com/
+- https://breachdirectory.org/
+
 ### RECONNAISSANCE - ENUMERATION
 *******
 
