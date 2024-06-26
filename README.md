@@ -81,6 +81,7 @@ pipx install 'git+https://github.com/Mazars-Tech/AD_Miner.git'
 reopen shell ;-)
 AD-miner -c -cf My_Report -u neo4j -p mypassword
 ```
+https://github.com/Mazars-Tech/AD_Miner
 <br/><br/>
 
 ---
