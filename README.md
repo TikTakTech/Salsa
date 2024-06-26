@@ -67,6 +67,10 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 **BloodHound & ADMiner in Kali :**
 ```
 bloodhound-python -d domain -u username@domain -p password -c all -ns domain_controller_ip -v
+sudo apt install bloodhound
+sudo neo4j console
+http://localhost:7474/
+bloodhound
 ```
 
 <br/><br/>
