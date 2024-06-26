@@ -36,6 +36,13 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 **NTLM**
 - https://www.scip.ch/en/?labs.20210909
 
+**Files Copy**
+- 
+
+**KALI**
+python -m http.server
+
+
 <br/><br/>
 
 ---
