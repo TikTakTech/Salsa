@@ -64,15 +64,22 @@ C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 ### RECONNAISSANCE - ENUMERATION
 ---
 
-**BloodHound & ADMiner in Kali :**
+**BloodHound :**
 ```
 bloodhound-python -d domain -u username@domain -p password -c all -ns domain_controller_ip -v
 sudo apt install bloodhound
 sudo neo4j console
 http://localhost:7474/
+(neo4j/neo4j)
 bloodhound
 ```
+https://medium.com/@leviathan36/active-directory-testing-with-bloodhound-a33b88622d2f
 
+**ADMiner**
+```
+pipx install 'git+https://github.com/Mazars-Tech/AD_Miner.git'
+
+```
 <br/><br/>
 
 ---
