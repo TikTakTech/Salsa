@@ -90,6 +90,9 @@ https://github.com/Mazars-Tech/AD_Miner
 <br/><br/>
 
 **Kerberoasting**
+```
+Get-PotentiallyCrackableAccounts -FullData -Verbose -Stealth
+```
 - https://github.com/cyberark/RiskySPN
 - https://github.com/nidem/kerberoast/blob/master/GetUserSPNs.ps1
   
