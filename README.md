@@ -89,6 +89,11 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 https://github.com/Mazars-Tech/AD_Miner
 <br/><br/>
 
+**Kerberoasting**
+- https://github.com/cyberark/RiskySPN
+- https://github.com/nidem/kerberoast/blob/master/GetUserSPNs.ps1
+  
+<br/><br/>
 ---
 ### MEMCM - MDT - PXE
 *******
