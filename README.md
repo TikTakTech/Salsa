@@ -42,11 +42,6 @@ https://github.com/mdsecactivebreach/Farmer
 https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 
 
-NTLM
----
-https://www.scip.ch/en/?labs.20210909
-
-
 KALI files transfert
 ---
 ```
@@ -92,11 +87,24 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 https://github.com/Mazars-Tech/AD_Miner
 
 
+
+
+NTLM
+---
+https://www.scip.ch/en/?labs.20210909
+
+
 Kerberos
 ---
-![image](https://github.com/TikTakTech/Salsa/assets/114105972/aa55712f-5bc3-4a52-a71f-70b1ee2298ad)
+
+https://beta.hackndo.com/kerberos/
+
+https://france.devoteam.com/paroles-dexperts/la-securite-des-protocoles-dauthentification-ntlm-et-kerberos-en-environnement-active-directory/
 
 https://www.thibautprobst.fr/fr/posts/kerberos/
+
+![image](https://github.com/TikTakTech/Salsa/assets/114105972/aa55712f-5bc3-4a52-a71f-70b1ee2298ad)
+
 
 Kerberoasting
 ---
