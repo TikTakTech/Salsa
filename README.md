@@ -47,7 +47,7 @@ NTLM
 https://www.scip.ch/en/?labs.20210909
 
 
-KALI : Files Transfert
+KALI files transfert
 ---
 ```
 python -m http.server
@@ -57,14 +57,14 @@ https://haveibeenpwned.com
 https://breachdirectory.org
 
 
-SYSVOL access without serveur name
+SYSVOL
 ---
 ```
 \\mon-domaine.fr\sysvol
 ```
 
 
-Searching Password in GPO with explorer
+Password in GPO
 ---
 ![image](https://github.com/TikTakTech/Salsa/assets/114105972/45e450e0-3a09-4da1-89d0-24db9bc8adb7)
 
@@ -131,7 +131,7 @@ https://github.com/wavestone-cdt/powerpxe
 https://tryhackme.com/r/room/breachingad
 
 
-Linux - Outils de crise
+Linux Toolkit
 ---
 https://korben.info/outils-crise-linux-indispensables-pros-it.html
 
