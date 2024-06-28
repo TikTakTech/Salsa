@@ -57,7 +57,7 @@ https://haveibeenpwned.com
 https://breachdirectory.org
 
 
-SYSVOL
+Sysvol
 ---
 ```
 \\mon-domaine.fr\sysvol
@@ -95,6 +95,8 @@ https://github.com/Mazars-Tech/AD_Miner
 Kerberos
 ---
 ![image](https://github.com/TikTakTech/Salsa/assets/114105972/aa55712f-5bc3-4a52-a71f-70b1ee2298ad)
+
+https://www.thibautprobst.fr/fr/posts/kerberos/
 
 Kerberoasting
 ---
