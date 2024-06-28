@@ -92,6 +92,10 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 https://github.com/Mazars-Tech/AD_Miner
 
 
+Kerberos
+---
+![image](https://github.com/TikTakTech/Salsa/assets/114105972/aa55712f-5bc3-4a52-a71f-70b1ee2298ad)
+
 Kerberoasting
 ---
 ```
