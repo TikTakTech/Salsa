@@ -92,21 +92,19 @@ hashcat -m 13100 --force -a 0 /home/kali/Downloads/hashes.txt /home/kali/Downloa
 - https://www.youtube.com/watch?v=ycNadGeq03E
 - https://raw.githubusercontent.com/EmpireProject/Empire/08cbd274bef78243d7a8ed6443b8364acd1fc48b/data/module_source/credentials/Invoke-Kerberoast.ps1
   
-MEMCM - MDT - PXE
+MEMCM - PXE
 ---
-
 - https://www.secura.com/blog/attacking-mitigating-windows-pxe-environments
-- https://www.netspi.com/blog/technical-blog/network-penetration-testing/attacks-against-windows-pxe-boot-images/
-- https://www.riskinsight-wavestone.com/en/2020/01/taking-over-windows-workstations-pxe-laps/
+- https://www.netspi.com/blog/technical-blog/network-penetration-testing/attacks-against-windows-pxe-boot-images
+- https://www.riskinsight-wavestone.com/en/2020/01/taking-over-windows-workstations-pxe-laps
 - https://connect.ed-diamond.com/MISC/misc-103/compromission-des-postes-de-travail-grace-a-laps-et-pxe
-- https://www.acceis.fr/sattaquer-aux-images-pxe/
+- https://www.acceis.fr/sattaquer-aux-images-pxe
 - https://github.com/wavestone-cdt/powerpxe
 - https://tryhackme.com/r/room/breachingad
 
   Linux - Outils de crise
   ---
-
-  - https://korben.info/outils-crise-linux-indispensables-pros-it.html
-  - https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
+- https://korben.info/outils-crise-linux-indispensables-pros-it.html
+- https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
 
 <br/><br/>
