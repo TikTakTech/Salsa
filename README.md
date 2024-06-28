@@ -18,10 +18,11 @@ https://atomicredteam.io/atomics/
 
 https://github.com/S3cur3Th1sSh1t/
 
-Kiosk evasion : file access from browser or openfile dialogbox
+Kiosk evasion
 ---
 ```
 file://c:/windows/system32/calc.exe
+\\127.0.0.1\c$
 ```
 
 Recent user activity
