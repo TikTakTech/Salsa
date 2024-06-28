@@ -44,6 +44,13 @@ https://github.com/mdsecactivebreach/Farmer
 https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 
 
+Responder
+---
+```
+sudo responder -I eth0
+/usr/share/responder/logs
+```
+
 KALI files transfert
 ---
 ```
@@ -123,7 +130,9 @@ impacket-secretsdump -sam sam.save -system system.save LOCAL
 Evil-WinRM
 ---
 https://www.hackingarticles.in/a-detailed-guide-on-evil-winrm/
-
+```
+evil-winrm -i X.X.X.X -u mon.user -p 'Monpassword'
+```
 
 Kerberos
 ---
@@ -207,5 +216,10 @@ Linux Toolkit
 https://korben.info/outils-crise-linux-indispensables-pros-it.html
 
 https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
+
+```
+netstat -tulpn
+```
+
 
 <br/><br/>
