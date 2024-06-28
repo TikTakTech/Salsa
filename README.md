@@ -103,4 +103,10 @@ MEMCM - MDT - PXE
 - https://github.com/wavestone-cdt/powerpxe
 - https://tryhackme.com/r/room/breachingad
 
+  Linux - Outils de crise
+  ---
+
+  - https://korben.info/outils-crise-linux-indispensables-pros-it.html
+  - https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
+
 <br/><br/>
