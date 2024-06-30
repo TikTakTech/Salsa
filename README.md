@@ -57,12 +57,24 @@ sudo responder -I eth0
 /usr/share/responder/logs
 ```
 
-Scan
+Scan / nmap
 ---
 ```
 rustscan -a 10.10.69.43
 rustscan -a 10.10.105.148 --ulimit 5000 -- -A
 nmap -A 10.10.10.10 -T5
+```
+
+RPCClient / Enum4linux
+---
+```
+
+```
+ncat
+---
+```
+nc -lvnp 4444
+rlwrap nc -nnvp 4443
 ```
 
 KALI files transfert
