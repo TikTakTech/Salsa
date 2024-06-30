@@ -26,6 +26,11 @@ https://exploit-notes.hdks.org/
 
 https://www.ired.team/
 
+Cheatsheet
+---
+
+https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
+
 Kiosk evasion
 ---
 ```
