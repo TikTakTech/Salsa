@@ -22,6 +22,10 @@ https://github.com/S3cur3Th1sSh1t/
 
 https://beta.hackndo.com/
 
+https://exploit-notes.hdks.org/
+
+https://www.ired.team/
+
 Kiosk evasion
 ---
 ```
