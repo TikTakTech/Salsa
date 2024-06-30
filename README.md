@@ -57,6 +57,14 @@ sudo responder -I eth0
 /usr/share/responder/logs
 ```
 
+Scan
+---
+```
+rustscan -a 10.10.69.43
+rustscan -a 10.10.105.148 --ulimit 5000 -- -A
+nmap -A 10.10.10.10 -T5
+```
+
 KALI files transfert
 ---
 ```
@@ -72,6 +80,11 @@ copy system.save \\kali\test\system.save
 
 https://ironhackers.es/en/cheatsheet/transferir-archivos-post-explotacion-cheatsheet/
 
+SmbClient
+---
+```
+smbclient -L \\\\10.10.105.148\\
+```
 
 Passwords
 ---
