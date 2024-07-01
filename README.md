@@ -83,7 +83,13 @@ ncat
 ```
 nc -lvnp 4444
 rlwrap nc -nnvp 4443
+ncat -lvnp 12345 --ssl
 ```
+Windows :
+
+https://github.com/int0x33/nc.exe/blob/master/nc64.exe
+
+https://www.revshells.com/
 
 Files transfert
 ---
