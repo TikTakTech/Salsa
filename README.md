@@ -268,5 +268,10 @@ https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
 netstat -tulpn
 ```
 
+DNS
+---
+DNS4all 194.0.5.3
+CloudFlare 1.1.1.1
+dns.sb 185.222.222.222, 45.11.45.11
 
 <br/><br/>
