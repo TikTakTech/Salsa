@@ -181,6 +181,12 @@ https://www.hackingarticles.in/a-detailed-guide-on-evil-winrm/
 evil-winrm -i X.X.X.X -u mon.user -p 'Monpassword'
 ```
 
+WinRM
+---
+```
+winrs -r:10.10.10.10 "msg * test"
+```
+
 Kerberos
 ---
 
