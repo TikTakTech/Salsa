@@ -300,6 +300,7 @@ nxc smb 10.10.10.10 --local-auth -u administrator -H 13213212121211212dfhgshsghg
 WIFI
 ---
 ```
+netsh wlan show profile
 netsh wlan show profile SSID key=clear
 ```
 
