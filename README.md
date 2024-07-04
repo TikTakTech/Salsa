@@ -163,6 +163,11 @@ https://github.com/Mazars-Tech/AD_Miner
 
 NTLM / Pass the hash
 ---
+```
+Install-Module -Name DSInternals
+ConvertTo-NTHash
+```
+
 https://www.scip.ch/en/?labs.20210909
 
 https://beta.hackndo.com/pass-the-hash/
