@@ -312,6 +312,10 @@ Kpaste
 ---
 https://kpaste.infomaniak.com/
 
+Prise de notes
+---
+Joplin
+
 
 
 
