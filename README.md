@@ -97,6 +97,9 @@ https://www.revshells.com/
 Files transfert
 ---
 ```
+# In Kali Explorer
+smb://P1234.mondomaine.fr/c$
+
 # Windows <- Kali
 python -m http.server
 http://IP:8000
