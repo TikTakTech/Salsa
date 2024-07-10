@@ -322,6 +322,7 @@ Joplin
 Websites Enumeration / screenshot
 ---
 Eyewitness
+Gowitness
 
 OST/PST Visualization
 ---
