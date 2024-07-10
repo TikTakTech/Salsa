@@ -327,4 +327,11 @@ OST/PST Visualization
 ---
 XstReader
 
+Searching files
+---
+
+locate monfichier.txt
+where monfichier.txt
+dir /s monfichier.txt
+
 <br/><br/>
