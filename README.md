@@ -39,6 +39,7 @@ Kiosk evasion
 ```
 file://c:/windows/system32/calc.exe
 \\127.0.0.1\c$
+file:///c:\windows\system32\cmd.exe
 ```
 
 Recent user activity
