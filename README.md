@@ -336,4 +336,11 @@ locate monfichier.txt
 where monfichier.txt
 dir /s monfichier.txt
 
+TryHackMe
+---
+
+https://tryhackme.com/r/room/windowsforensics1
+
+
+
 <br/><br/>
