@@ -340,6 +340,9 @@ TryHackMe
 ---
 
 https://tryhackme.com/r/room/windowsforensics1
+https://tryhackme.com/module/hacking-windows-1
+https://tryhackme.com/r/room/adenumeration
+
 
 
 
