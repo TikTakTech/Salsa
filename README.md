@@ -348,6 +348,7 @@ ADACLScanner
 
 https://github.com/canix1/ADACLScanner
 https://learn.microsoft.com/fr-fr/archive/blogs/pfesweplat/forensics-active-directory-acl-investigation
+https://labs.lares.com/securing-active-directory-via-acls/
 
 
 
