@@ -136,7 +136,8 @@ https://breachdirectory.org
 Sysvol
 ---
 ```
-\\mon-domaine.fr\sysvol
+\\mon-domaine.fr\sysvol # Windows
+smb://monserveur/c$ # Thunar
 ```
 
 
