@@ -132,6 +132,8 @@ https://haveibeenpwned.com
 
 https://breachdirectory.org
 
+# Sans bloquer lockout
+https://www.login-securite.com/2024/06/03/spray-passwords-avoid-lockouts/
 
 Sysvol
 ---
