@@ -358,5 +358,6 @@ WinPEBuilder
 https://github.com/cmartinezone/WinPEBuilder
 # adksetup + module adkwinpesetup
 # Dism /Set-InputLocale:fr-FR /Image:%winpe_root%\mount
-
+# Adminlocal
+# cmd.exe -> sethc.exe -> shift x5 -> net user /add tech XXXX & net localgroup administrateurs tech /Add
 <br/><br/>
