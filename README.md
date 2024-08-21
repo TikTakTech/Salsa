@@ -397,3 +397,10 @@ pip3 install -r requirements.txt
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.hashdump.Hashdump
 ./vol.py -f '/home/kali/Downloads/p8242.raw' windows.cachedump.Cachedump
 ```
+
+NTLM HASH GENERATOR
+---
+
+```
+iconv -f ASCII -t UTF-16LE <(printf "test") | openssl dgst -md4
+```
