@@ -432,8 +432,12 @@ windgb + memory.dmp
 0:kd>!mimikatz
 ```
 https://github.com/Velocidex/WinPmem
+
 https://github.com/ufrisk/MemProcFS
+
 https://github.com/dokan-dev/dokany
+
 https://learn.microsoft.com/fr-fr/windows-hardware/drivers/debugger/
+
 https://github.com/gentilkiwi/mimikatz
 
