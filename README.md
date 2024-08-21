@@ -374,12 +374,11 @@ Suppression propre profil/user
 
 LSASS DUMP
 ---
-
 https://redteamrecipe.com/50-methods-for-lsass-dumprtc0002
 https://diverto.github.io/2019/11/05/Extracting-Passwords-from-hiberfil-and-memdumps
 ```
 winpmem_mini_x64.exe mondmp.raw
 volatility_2.6_win64_standalone.exe -f .\mondmp.raw imageinfo
-volatility_2.6_win64_standalone.exe -f mondmp.raw (--profile=Win7SP1x64) raw2dmp -O mondmp.dmp
+volatility_2.6_win64_standalone.exe -f mondmp.raw --profile=Win10x64 raw2dmp -O mondmp.dmp
 
 ```
