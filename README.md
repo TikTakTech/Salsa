@@ -339,6 +339,7 @@ Searching files
 
 locate monfichier.txt
 where monfichier.txt
+where /r c: windbg.*
 dir /s monfichier.txt
 
 TryHackMe
