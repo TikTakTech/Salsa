@@ -422,7 +422,7 @@ LSASS : MemoryDump + Windbg + Mimikatz
 ---
 ```
 net use Z: \\computer_name\monshare /PERSISTENT:YES
-winpmem_mini_x64.exe Z:mondmp.mem
+winpmem_mini_x64_rc2.exe Z:mondmp.mem
 ou winpmem_mini_x64_rc2.exe mondump.mem
 MemProcFS_files_and_binaries_v5.11.4-win_x64-20240817>MemProcFS.exe -device ..\mondump.mem -forensic 1 -mount S
 windgb + memory.dmp
@@ -431,4 +431,9 @@ windgb + memory.dmp
 0:kd>.process /r /p ffff9a8c884130c0(PROCESS)
 0:kd>!mimikatz
 ```
+https://github.com/Velocidex/WinPmem
+https://github.com/ufrisk/MemProcFS
+https://github.com/dokan-dev/dokany
+https://learn.microsoft.com/fr-fr/windows-hardware/drivers/debugger/
+https://github.com/gentilkiwi/mimikatz
 
