@@ -390,7 +390,10 @@ https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-m
 git clone https://github.com/volatilityfoundation/volatility3.git
 cd volatility3
 pip3 install -r requirements.txt
+./vol.py --help | grep windows
+./vol.py --info
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.info.Info
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.lsadump.Lsadump
 ./vol.py -f '/home/kali/Downloads/mydump.raw' windows.hashdump.Hashdump
+./vol.py -f '/home/kali/Downloads/p8242.raw' windows.cachedump.Cachedump
 ```
