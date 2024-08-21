@@ -359,13 +359,21 @@ WinPEBuilder
 ---
 
 https://github.com/cmartinezone/WinPEBuilder
+```
 # adksetup + module adkwinpesetup
 # Dism /Set-InputLocale:fr-FR /Image:%winpe_root%\mount
 # Adminlocal
 # cmd.exe -> sethc.exe -> shift x5 -> net user /add tech XXXX & net localgroup administrateurs tech /Add
+```
 
 Suppression propre profil/user
 ---
-
+```
 # Système > Paramètres avancés du système > Profils des utilisateurs > Paramètres
-<br/><br/>
+```
+
+LSASS DUMP
+---
+
+https://redteamrecipe.com/50-methods-for-lsass-dumprtc0002
+
