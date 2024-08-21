@@ -386,6 +386,10 @@ copy mondmp.raw T:mondmp.raw
 net use T: /delete
 # volatility_2.6_win64_standalone.exe -f .\mondmp.raw imageinfo # Volatility 2.6 = version récente W10 pb
 # volatility_2.6_win64_standalone.exe -f mondmp.raw --profile=Win10x64 raw2dmp -O mondmp.dmp # Volatility 2.6 = version récente W10 pb
-
-
+https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet
+git clone https://github.com/volatilityfoundation/volatility3.git
+cd volatility3
+pip3 install -r requirements.txt
+./vol.py -f '/home/kali/Downloads/mydump.raw' windows.lsadump.Lsadump
+./vol.py -f '/home/kali/Downloads/mydump.raw' windows.hashdump.Hashdump
 ```
