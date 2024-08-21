@@ -417,6 +417,9 @@ privilege::debug
 sekurlsa::logonpasswords
 sekurlsa:minidump "C:\Users\adminlocal\Downloads\lsass.DMP"
 ```
+https://powerseb.github.io/posts/LSASS-parsing-without-a-cat/
+
+https://github.com/powerseb/PowerExtract/blob/main/Invoke-PowerExtract.ps1
 
 LSASS : MemoryDump + Windbg + Mimikatz
 ---
