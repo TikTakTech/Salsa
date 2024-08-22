@@ -444,3 +444,5 @@ https://learn.microsoft.com/fr-fr/windows-hardware/drivers/debugger/
 
 https://github.com/gentilkiwi/mimikatz
 
+https://github.com/y00ga-sec/Forensike/
+
