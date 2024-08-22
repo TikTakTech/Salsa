@@ -26,7 +26,7 @@ https://exploit-notes.hdks.org/
 
 https://www.ired.team/
 
-https://0xsp.com/offensive/red-team-cheatsheet/
+
 
 Cheatsheet
 ---
@@ -35,6 +35,13 @@ https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
 
 https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
+https://0xsp.com/offensive/red-team-cheatsheet/
+
+Runas
+---
+```
+runas /user:dom\monuser /netonly cmd
+```
 
 Kiosk evasion
 ---
