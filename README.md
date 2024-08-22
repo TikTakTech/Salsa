@@ -26,6 +26,8 @@ https://exploit-notes.hdks.org/
 
 https://www.ired.team/
 
+https://0xsp.com/offensive/red-team-cheatsheet/
+
 Cheatsheet
 ---
 
