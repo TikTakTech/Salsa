@@ -452,3 +452,5 @@ https://github.com/gentilkiwi/mimikatz
 
 https://github.com/y00ga-sec/Forensike/
 
+https://powerseb.github.io/posts/LSASS-parsing-without-a-cat/
+
