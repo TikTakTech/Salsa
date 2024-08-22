@@ -126,6 +126,10 @@ SmbClient
 smbclient -L \\\\10.10.105.148\\
 ```
 
+SMB scan
+---
+Snaffler.exe
+
 Passwords
 ---
 https://haveibeenpwned.com
