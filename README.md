@@ -128,7 +128,7 @@ smbclient -L \\\\10.10.105.148\\
 
 SMB scan
 ---
-Snaffler.exe
+snaffler.exe -s -v Data -o snaffler.log
 
 Passwords
 ---
