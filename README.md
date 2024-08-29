@@ -35,6 +35,13 @@ https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
 
 https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
+
+Assembleur
+---
+
+https://cutter.re/
+
+
 https://0xsp.com/offensive/red-team-cheatsheet/
 
 Runas
