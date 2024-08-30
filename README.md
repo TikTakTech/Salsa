@@ -474,10 +474,15 @@ https://github.com/y00ga-sec/Forensike/
 
 https://powerseb.github.io/posts/LSASS-parsing-without-a-cat/
 
-Port -> Service
+Port -> Process
 ---
 ```
 netstat -abo | findstr "64098"
 tasklist /fi "pid eq 11960"
 ```
+
+Désassembleur open source
+---
+
+https://cutter.re/
 
