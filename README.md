@@ -481,10 +481,11 @@ netstat -abo | findstr "64098"
 tasklist /fi "pid eq 11960"
 ```
 
-Désassembleur open source
+Désassembleur
 ---
 
 https://cutter.re/
+http://windbg.info/doc/1-common-cmds.html
 
 Mails Anonymes
 ---
