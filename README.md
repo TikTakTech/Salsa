@@ -460,7 +460,7 @@ windgb + memory.dmp
 
 net use z: /delete
 
-With Powershel !!!
+With Powershel ? No ! Just user dump !
 $ss = Get-CimInstance -ClassName MSFT_StorageSubSystem -Namespace Root\Microsoft\Windows\Storage;
 Invoke-CimMethod -InputObject $ss -MethodName "GetDiagnosticInfo" -Arguments @{DestinationPath="c:\users\adminlocal\desktop"; IncludeLiveDump=$true};
 
