@@ -492,3 +492,7 @@ Mails Anonymes
 
 https://email-anonyme.5ymail.com
 
+Analyse malveillants
+---
+
+https://github.com/mandiant/capa
