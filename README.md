@@ -53,6 +53,8 @@ https://www.dropbox.com/scl/fo/bv9f8bp1zmccchya7pthg/h?rlkey=wg1ky9dh0cnmh8lsc5h
 
 https://www.asmirvine.com/gettingStartedVS2017/index.htm
 
+https://securitytimes.medium.com/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa
+
 Runas
 ---
 ```
