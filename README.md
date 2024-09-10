@@ -47,7 +47,11 @@ http://windbg.info/doc/1-common-cmds.html
 
 https://www.youtube.com/@billskycomputerguy
 
+KomanetskyFunctions // Irvine
 
+https://www.dropbox.com/scl/fo/bv9f8bp1zmccchya7pthg/h?rlkey=wg1ky9dh0cnmh8lsc5hfmk4re&e=1&dl=0
+
+https://www.asmirvine.com/gettingStartedVS2017/index.htm
 
 Runas
 ---
