@@ -35,14 +35,19 @@ https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
 
 https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
+https://0xsp.com/offensive/red-team-cheatsheet/
+
 
 Assembleur
 ---
 
 https://cutter.re/
 
+http://windbg.info/doc/1-common-cmds.html
 
-https://0xsp.com/offensive/red-team-cheatsheet/
+https://www.youtube.com/@billskycomputerguy
+
+
 
 Runas
 ---
@@ -486,12 +491,6 @@ Port -> Process
 netstat -abo | findstr "64098"
 tasklist /fi "pid eq 11960"
 ```
-
-Désassembleur
----
-
-https://cutter.re/
-http://windbg.info/doc/1-common-cmds.html
 
 Mails Anonymes
 ---
