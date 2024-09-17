@@ -507,3 +507,12 @@ Analyse malveillants
 ---
 
 https://github.com/mandiant/capa
+
+
+EDR
+---
+```
+fltMC.exe
+Ordinateur\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FileInfo\Instances\FileInfo
+```
+
