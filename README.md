@@ -515,4 +515,12 @@ EDR
 fltMC.exe
 Ordinateur\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FileInfo\Instances\FileInfo
 ```
+https://tierzerosecurity.co.nz/2024/03/27/blind-edr.html
+
+https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/compiling-first-kernel-driver-kdprint-dbgprint-and-debugview
+
+https://v3ded.github.io/redteam/red-team-tactics-writing-windows-kernel-drivers-for-advanced-persistence-part-1
+
+https://synzack.github.io/Blinding-EDR-On-Windows/
+
 
