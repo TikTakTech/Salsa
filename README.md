@@ -513,6 +513,7 @@ EDR
 ---
 ```
 fltMC.exe
+NSudoLC.exe -U:T -P:E cmd
 Ordinateur\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FileInfo\Instances\FileInfo
 ```
 https://tierzerosecurity.co.nz/2024/03/27/blind-edr.html
