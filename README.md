@@ -524,4 +524,9 @@ https://v3ded.github.io/redteam/red-team-tactics-writing-windows-kernel-drivers-
 
 https://synzack.github.io/Blinding-EDR-On-Windows/
 
+W11
+---
+```
+SHIFT + F10 -> oobe\bypassnro
+```
 
