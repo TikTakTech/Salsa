@@ -530,3 +530,9 @@ W11
 SHIFT + F10 -> oobe\bypassnro
 ```
 
+Network Capture - Who is pinging ?
+---
+https://techcommunity.microsoft.com/t5/iis-support-blog/capture-a-network-trace-without-installing-anything-amp-capture/ba-p/376503
+https://www.microsoft.com/en-us/download/details.aspx?id=4865
+
+
