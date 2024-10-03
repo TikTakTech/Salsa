@@ -524,6 +524,8 @@ https://v3ded.github.io/redteam/red-team-tactics-writing-windows-kernel-drivers-
 
 https://synzack.github.io/Blinding-EDR-On-Windows/
 
+https://community.sap.com/t5/technology-blogs-by-sap/how-to-run-process-monitor-with-reduced-altitude/ba-p/13484744
+
 W11
 ---
 ```
