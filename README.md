@@ -35,30 +35,6 @@ https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
 https://0xsp.com/offensive/red-team-cheatsheet/
 
-XAML - PS GUI
----
-
-https://gist.github.com/QuietusPlus/0bceaf7f52eb23841e3f7bcf191fc6df
-
-
-
-Assembleur
----
-
-https://cutter.re/
-
-http://windbg.info/doc/1-common-cmds.html
-
-https://www.youtube.com/@billskycomputerguy
-
-KomanetskyFunctions // Irvine
-
-https://www.dropbox.com/scl/fo/bv9f8bp1zmccchya7pthg/h?rlkey=wg1ky9dh0cnmh8lsc5hfmk4re&e=1&dl=0
-
-https://www.asmirvine.com/gettingStartedVS2017/index.htm
-
-https://securitytimes.medium.com/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa
-
 Runas
 ---
 ```
@@ -541,4 +517,26 @@ Network Capture - Who is pinging ?
 https://techcommunity.microsoft.com/t5/iis-support-blog/capture-a-network-trace-without-installing-anything-amp-capture/ba-p/376503
 https://www.microsoft.com/en-us/download/details.aspx?id=4865
 
+XAML - PS GUI
+---
 
+https://gist.github.com/QuietusPlus/0bceaf7f52eb23841e3f7bcf191fc6df
+
+https://www.foxdeploy.com/blog/part-ii-deploying-powershell-guis-in-minutes-using-visual-studio.html
+
+Assembleur
+---
+
+https://cutter.re/
+
+http://windbg.info/doc/1-common-cmds.html
+
+https://www.youtube.com/@billskycomputerguy
+
+KomanetskyFunctions // Irvine
+
+https://www.dropbox.com/scl/fo/bv9f8bp1zmccchya7pthg/h?rlkey=wg1ky9dh0cnmh8lsc5hfmk4re&e=1&dl=0
+
+https://www.asmirvine.com/gettingStartedVS2017/index.htm
+
+https://securitytimes.medium.com/understanding-and-abusing-process-tokens-part-i-ee51671f2cfa
