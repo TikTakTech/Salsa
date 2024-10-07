@@ -26,8 +26,6 @@ https://exploit-notes.hdks.org/
 
 https://www.ired.team/
 
-
-
 Cheatsheet
 ---
 
@@ -36,6 +34,12 @@ https://www.willhackforsushi.com/sec504/SMB-Access-from-Linux.pdf
 https://cheatsheet.haax.fr/passcracking-hashfiles/hashcat_cheatsheet/
 
 https://0xsp.com/offensive/red-team-cheatsheet/
+
+XAML - PS GUI
+---
+
+https://gist.github.com/QuietusPlus/0bceaf7f52eb23841e3f7bcf191fc6df
+
 
 
 Assembleur
