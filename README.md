@@ -544,11 +544,11 @@ https://securitytimes.medium.com/understanding-and-abusing-process-tokens-part-i
 
 Admin local offline
 ---
-
+```
 WinPE or Shift F10 at installation USB -> cmd
 cmd.exe -> cmd.old
 sethc.exe -> cmd.exe
 c:\Windows\system32\control userpasswords2
-
+```
 
 
