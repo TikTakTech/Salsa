@@ -550,5 +550,8 @@ cmd.exe -> cmd.old
 sethc.exe -> cmd.exe
 c:\Windows\system32\control userpasswords2
 ```
-
-
+OneLiner Powershell with params
+---
+```
+& ([ScriptBlock]::Create((irm https://get.activated.win))) /para
+```
